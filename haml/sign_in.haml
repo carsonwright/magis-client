@@ -1,0 +1,23 @@
+!!!
+=partial('partials/head.haml')
+.header-panel
+.container
+  .col-sm-6.text-center
+    %h1 Sign In
+    %form.form-horizontal.user.sign-in
+      .form-group
+        %label.col-sm-2.control-label(for="email")Email
+        .col-sm-10
+          %input.email.form-control(type="text" id="email" placeholder="Email")
+      .form-group
+        %label.col-sm-2.control-label(for="password")Password
+        .col-sm-10.text-left
+          %input.password.form-control(type="password" id="password" placeholder="Password")
+      .form-group
+        %input.btn.btn-primary.submit.center-block(type="submit" value="Login")
+  .col-sm-6.text-center
+    %h1 Sign Up
+    %span.col-sm-8.center-block.text-justify
+      Don't have an Account?
+    %br
+    %a.btn.btn-default(href="/sign_up.html")Sign Up

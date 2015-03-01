@@ -1,0 +1,38 @@
+!!!
+= partial('partials/head.haml')
+.header-panel
+.container.text-center
+	.col-sm-6
+		%h1 Sign Up
+		%form.form-horizontal.user.sign-up
+			.form-group
+				%label.col-sm-2.control-label(for="email")First Name
+				.col-sm-10
+					%input#first-name.first-name.form-control(type="text" placeholder="First Name")
+			.form-group
+				%label.col-sm-2.control-label(for="last-name")Last Name
+				.col-sm-10
+					%input#last-name.last-name.form-control(type="text" placeholder="Last Name")
+			.form-group
+				%label.col-sm-2.control-label(for="email")Email
+				.col-sm-10
+					%input#email.email.form-control(type="text" placeholder="Email")
+			.form-group
+				%label.col-sm-2.control-label(for="phone")Phone
+				.col-sm-10
+					%input#phone.phone.form-control(type="text" placeholder="Phone")
+			.form-group
+				%label.col-sm-2.control-label(for="password")Password
+				.col-sm-10
+					%input#password.password.form-control(type="password" placeholder="Password")
+			.form-group
+				%label(for="password").col-sm-2.control-label Password Confirmation
+				.col-sm-10
+					%input#password.password-confirmation.form-control(type="password" placeholder="Password")
+			.form-group
+				%input.btn.btn-primary.submit.center-block(type="submit" value="Sign Up")
+	.col-sm-6
+		%h1 Sign In
+		Already Have an Account?
+		%br
+		%a.btn.btn-default(href="/sign_in.html") Sign In

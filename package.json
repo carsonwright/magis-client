@@ -1,0 +1,22 @@
+{
+  "name": "front-end",
+  "description": "Basic Application",
+  "author": "Carson Wright <carsonnwright@gmail.com>",
+  "dependencies": {
+    "gulp-coffee": ">= 2.2.0",
+    "gulp-file-include": ">= 0.7.1",
+    "gulp-util": ">= 3.0.1",
+    "gulp-watch": ">= 3.0.0",
+    "gulp-webserver": ">= 0.9.0",
+    "gulp-concat": ">=  2.4.3",
+    "gulp-sass": ">= 1.2.4",
+    "gulp-haml":">= 0.1.4",
+    "gulp":">= 3.8.11",
+    "node-sass": "^2.0.1",
+    "coffee-react-transform": ">= 2.1.0",
+    "coffee-script": ">= 1.8.0",
+    "haml": "^0.4.3",
+    "hamljs": "^0.6.2"
+  },
+  "engine": "node 0.4.1"
+}
